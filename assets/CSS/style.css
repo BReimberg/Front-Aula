@@ -15,3 +15,15 @@
     vertical-align: baseline;
     text-decoration: none; /*remover o sublinhado dos links*/
 }
+
+.container {
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
