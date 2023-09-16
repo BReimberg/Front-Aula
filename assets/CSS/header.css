@@ -1,6 +1,6 @@
 header {
     width: 1024px;
-    margin: 0 auto;
+    margin: 30px auto;
     
     display: flex;
     flex-direction: row;
@@ -11,9 +11,11 @@ header {
 header nav ul {
     display: flex;
     flex-direction: row; /*alinhar o menu na horizontal*/
+    align-items: center; /*alinhar os itens igualmente*/
     list-style: none; /*remover as bolinhas da lista*/
 }
 
-header nav ul li {
-    padding: 0 15px; /*espaçamento entre os itens do menu*/
+header nav ul li a {
+    margin: 0 15px; /*espaçamento entre os itens do menu*/
+    color: #3399cc; /*Cores para o site: #3399cc; #333366; #ff6633; #b1f4ff */
 }
