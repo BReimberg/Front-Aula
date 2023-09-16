@@ -5,6 +5,7 @@
 @import './header.css';
 @import './buttons.css';
 @import './main.css';
+@import './footer.css';
 
 /* Reset CSS */
 *{
@@ -16,6 +17,13 @@
     font-weight: 300;
     vertical-align: baseline;
     text-decoration: none; /*remover o sublinhado dos links*/
+    list-style: none; /* Remover as bolinhas das listas */
+}
+
+body {
+    background-image: url('../images/bolha-background.png');
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .container {
