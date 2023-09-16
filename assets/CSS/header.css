@@ -1,0 +1,19 @@
+header {
+    width: 1024px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*espaço entre elementos*/
+    align-items: center; /*alinhar os itens igualmente*/
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row; /*alinhar o menu na horizontal*/
+    list-style: none; /*remover as bolinhas da lista*/
+}
+
+header nav ul li {
+    padding: 0 15px; /*espaçamento entre os itens do menu*/
+}
