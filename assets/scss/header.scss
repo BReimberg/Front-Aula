@@ -1,0 +1,32 @@
+header {
+    //Section
+    section {
+        justify-content: space-between; /*espaço entre elementos*/
+        align-items: center; /*alinhar os itens igualmente*/
+    }
+    //end Section
+
+    //Nav
+    nav{
+
+        //ul
+        ul{
+            display: flex;
+            flex-direction: row; /*alinhar o menu na horizontal*/
+            align-items: center; /*alinhar os itens igualmente*/
+
+            //li a
+            li {
+                //a
+                a {
+                    margin: 0 15px; /*espaçamento entre os itens do menu*/
+                    color: $color-primaria; /*Cores para o site: $color-primaria; $color-secundaria; $color-terciaria; $color-quartenaria */
+                }
+                //end a
+            }
+            //end li
+        }
+        //end ul
+    }
+    //end nav
+}

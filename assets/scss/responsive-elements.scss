@@ -1,0 +1,120 @@
+@media (max-width: 1150px) {
+
+    /* Tamanho de tela */
+    .container {
+        width: 950px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 850px;
+    }
+
+    //Sobre
+    .sobre-web-design {
+        //Fig
+        figcaption {
+            //Img
+            img { /* Imagem ao lado do texto */
+                width: 600px;
+            }
+            //end Img
+        }
+        //end Fig
+    }
+    //end Sobre
+}
+
+@media (max-width: 915px) {
+
+    body {
+        background-position: left -250px;
+        background-color: $color-quartenaria;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    //Header
+    header {
+        //Nav
+        nav {
+            margin: 30px 0;
+        }
+        //end Nav
+    }
+    //end Header
+
+    //Sobre
+    .sobre-we-desing {
+        //Article
+        article {
+            width: 100%;
+        }
+        //end Article
+
+        //Fig
+        figcaption {
+            //Img
+            img {
+                width: 100%;
+                margin: 30px 0 0 0;
+            }
+            //end Img
+        }
+        //end Fig
+    }
+    //end Sobre
+
+    //Footer
+    footer {
+        //row
+        .row {
+            flex-direction: row;
+            justify-content: center;
+        }
+        //end row
+    }
+    //end Footer
+}
+
+@media (max-width: 665px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 290px;
+    }
+
+    //Header
+    header {
+        //Nav
+        nav {
+            background: $color-branco;
+            width: 100%;
+            padding:  10px 0 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+
+            //ul
+            ul {
+                flex-direction: column; /*alinhar o menu na vertical*/
+                li {
+                    margin: 10px 0;
+                }
+                //end li
+            }
+            //end ul
+        }
+        //end Nav
+    }
+    //end Header
+}
